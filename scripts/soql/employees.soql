@@ -1,0 +1,3 @@
+SELECT Id, First_Name__c, Last_Name__c, User__c, Date_of_Hire__c,
+Date_of_Termination__c, Email__c, Name, Phone__c
+FROM Employee__c LIMIT 10

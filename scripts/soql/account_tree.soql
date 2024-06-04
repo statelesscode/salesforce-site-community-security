@@ -1,0 +1,13 @@
+SELECT Id, Name, AccountNumber, AnnualRevenue, BillingCity, BillingCountry,
+BillingPostalCode, BillingState, BillingStreet, BillingLatitude, BillingLongitude,
+BillingGeocodeAccuracy, ShippingCity, ShippingCountry, ShippingGeocodeAccuracy,
+ShippingLatitude, ShippingLongitude, ShippingPostalCode, ShippingState, ShippingStreet,
+Industry, Phone, Rating, TickerSymbol, Type, Website,
+(SELECT Id, FirstName, LastName, AccountId, Birthdate, Department, Email, Phone,
+  IndividualId, LeadSource, MobilePhone, Title
+  FROM Contacts LIMIT 3),
+(SELECT Id, AccountId, Origin, Reason, ContactId,
+  Description, Comments, Priority, Status, Subject, Type FROM Cases LIMIT 3),
+(SELECT Id, AccountId, Amount, CloseDate, LeadSource, Name, StageName, Type
+  FROM Opportunities LIMIT 2)
+FROM Account LIMIT 5

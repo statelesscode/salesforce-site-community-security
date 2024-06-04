@@ -1,0 +1,116 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef1"
+      },
+      "AccountId": "@AccountRef1",
+      "Origin": "Phone",
+      "Reason": "Equipment Complexity",
+      "ContactId": "@ContactRef1",
+      "Priority": "High",
+      "Status": "Closed",
+      "Subject": "Starting generator after electrical failure",
+      "Type": "Electrical"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef2"
+      },
+      "AccountId": "@AccountRef1",
+      "Origin": "Web",
+      "Reason": "Equipment Complexity",
+      "ContactId": "@ContactRef2",
+      "Priority": "Medium",
+      "Status": "Closed",
+      "Subject": "Shutting down of generator",
+      "Type": "Mechanical"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef3"
+      },
+      "AccountId": "@AccountRef1",
+      "Origin": "Phone",
+      "Reason": "Equipment Complexity",
+      "ContactId": "@ContactRef2",
+      "Priority": "Medium",
+      "Status": "Closed",
+      "Subject": "Cannot start generator after electrical failure",
+      "Type": "Electrical"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef4"
+      },
+      "AccountId": "@AccountRef2",
+      "Origin": "Web",
+      "Reason": "Equipment Design",
+      "ContactId": "@ContactRef3",
+      "Priority": "High",
+      "Status": "Closed",
+      "Subject": "Structural failure of generator base",
+      "Type": "Structural"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef5"
+      },
+      "AccountId": "@AccountRef2",
+      "Origin": "Phone",
+      "Reason": "Performance",
+      "ContactId": "@ContactRef3",
+      "Priority": "Medium",
+      "Status": "Closed",
+      "Subject": "Power generation below stated level",
+      "Type": "Electrical"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef6"
+      },
+      "AccountId": "@AccountRef5",
+      "Origin": "Phone",
+      "Reason": "Breakdown",
+      "ContactId": "@ContactRef6",
+      "Priority": "Medium",
+      "Status": "Closed",
+      "Subject": "Structural breakdown of rotor assembly",
+      "Type": "Structural"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef7"
+      },
+      "AccountId": "@AccountRef5",
+      "Origin": "Web",
+      "Reason": "Feedback",
+      "ContactId": "@ContactRef6",
+      "Priority": "Low",
+      "Status": "Closed",
+      "Subject": "Customer service for portable generators needs beefing up",
+      "Type": "Other"
+    },
+    {
+      "attributes": {
+        "type": "Case",
+        "referenceId": "CaseRef8"
+      },
+      "AccountId": "@AccountRef5",
+      "Origin": "Web",
+      "Reason": "Equipment Design",
+      "ContactId": "@ContactRef7",
+      "Priority": "Medium",
+      "Status": "Closed",
+      "Subject": "Starting up generator consumes excessive power",
+      "Type": "Other"
+    }
+  ]
+}

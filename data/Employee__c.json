@@ -1,0 +1,78 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Employee__c",
+        "referenceId": "Employee__cRef1"
+      },
+      "First_Name__c": "Ted",
+      "Last_Name__c": "Strainer",
+      "Date_of_Hire__c": "1994-06-06",
+      "Email__c": "ted.strainer@sieveco.example.com",
+      "Name": "EMP-0000001",
+      "Phone__c": "5555550001"
+    },
+    {
+      "attributes": {
+        "type": "Employee__c",
+        "referenceId": "Employee__cRef2"
+      },
+      "First_Name__c": "Jennie",
+      "Last_Name__c": "Collander",
+      "Date_of_Hire__c": "2022-10-17",
+      "Email__c": "jennie.collander@sieveco.example.com",
+      "Name": "EMP-0006232",
+      "Phone__c": "5555556232"
+    },
+    {
+      "attributes": {
+        "type": "Employee__c",
+        "referenceId": "Employee__cRef3"
+      },
+      "First_Name__c": "Egon",
+      "Last_Name__c": "Smith",
+      "Date_of_Hire__c": "2015-02-03",
+      "Email__c": "egon.smith@sieveco.example.com",
+      "Name": "EMP-0001337",
+      "Phone__c": "5555551337"
+    },
+    {
+      "attributes": {
+        "type": "Employee__c",
+        "referenceId": "Employee__cRef4"
+      },
+      "First_Name__c": "Wilson",
+      "Last_Name__c": "Thornton",
+      "Date_of_Hire__c": "2024-01-06",
+      "Email__c": "wilson.j.thornton@sieveco.example.com",
+      "Name": "EMP-0024601",
+      "Phone__c": "5555554601"
+    },
+    {
+      "attributes": {
+        "type": "Employee__c",
+        "referenceId": "Employee__cRef5"
+      },
+      "First_Name__c": "Malcolm",
+      "Last_Name__c": "Sieve",
+      "Date_of_Hire__c": "1994-06-06",
+      "Date_of_Termination__c": "2010-05-14",
+      "Email__c": "malcolm.sieve@sieveco.example.com",
+      "Name": "EMP-0000002",
+      "Phone__c": "5555550002"
+    },
+    {
+      "attributes": {
+        "type": "Employee__c",
+        "referenceId": "Employee__cRef6"
+      },
+      "First_Name__c": "George",
+      "Last_Name__c": "Washout",
+      "Date_of_Hire__c": "2019-01-03",
+      "Date_of_Termination__c": "2019-01-03",
+      "Email__c": "george.washout@sieveco.example.com",
+      "Name": "EMP-0002500",
+      "Phone__c": "5555552500"
+    }
+  ]
+}

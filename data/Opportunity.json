@@ -1,0 +1,93 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "referenceId": "OpportunityRef1"
+      },
+      "AccountId": "@AccountRef1",
+      "Amount": 75000,
+      "CloseDate": "2014-08-25",
+      "LeadSource": "Word of mouth",
+      "Name": "Edge Emergency Generator",
+      "StageName": "Closed Won",
+      "Type": "New Customer"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "referenceId": "OpportunityRef2"
+      },
+      "AccountId": "@AccountRef1",
+      "Amount": 50000,
+      "CloseDate": "2014-08-25",
+      "LeadSource": "Word of mouth",
+      "Name": "Edge Installation",
+      "StageName": "Closed Won",
+      "Type": "Existing Customer - Upgrade"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "referenceId": "OpportunityRef3"
+      },
+      "AccountId": "@AccountRef2",
+      "Amount": 235000,
+      "CloseDate": "2014-08-25",
+      "LeadSource": "Web",
+      "Name": "Burlington Textiles Weaving Plant Generator",
+      "StageName": "Closed Won",
+      "Type": "New Customer"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "referenceId": "OpportunityRef4"
+      },
+      "AccountId": "@AccountRef3",
+      "Amount": 100000,
+      "CloseDate": "2014-08-25",
+      "LeadSource": "Phone Inquiry",
+      "Name": "Pyramid Emergency Generators",
+      "StageName": "Prospecting"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "referenceId": "OpportunityRef5"
+      },
+      "AccountId": "@AccountRef4",
+      "Amount": 15000,
+      "CloseDate": "2014-08-25",
+      "LeadSource": "Purchased List",
+      "Name": "Dickenson Mobile Generators",
+      "StageName": "Qualification",
+      "Type": "New Customer"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "referenceId": "OpportunityRef6"
+      },
+      "AccountId": "@AccountRef5",
+      "Amount": 15000,
+      "CloseDate": "2014-08-25",
+      "Name": "Grand Hotels Kitchen Generator",
+      "StageName": "Id. Decision Makers",
+      "Type": "Existing Customer - Upgrade"
+    },
+    {
+      "attributes": {
+        "type": "Opportunity",
+        "referenceId": "OpportunityRef7"
+      },
+      "AccountId": "@AccountRef5",
+      "Amount": 250000,
+      "CloseDate": "2014-08-25",
+      "LeadSource": "Employee Referral",
+      "Name": "Grand Hotels Guest Portable Generators",
+      "StageName": "Value Proposition",
+      "Type": "Existing Customer - Upgrade"
+    }
+  ]
+}
