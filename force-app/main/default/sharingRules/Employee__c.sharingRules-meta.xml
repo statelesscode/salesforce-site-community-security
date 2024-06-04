@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingGuestRules>
+        <fullName>Share_Non_Contractors</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Share non-contractors (bad sharing rule, always evaluates to true)</description>
+        <label>Share Non Contractors</label>
+        <sharedTo>
+            <guestUser>Employee_Help_Portal</guestUser>
+        </sharedTo>
+        <criteriaItems>
+            <field>Name</field>
+            <operation>notContain</operation>
+            <value>CTR</value>
+        </criteriaItems>
+        <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
+    </sharingGuestRules>
+</SharingRules>

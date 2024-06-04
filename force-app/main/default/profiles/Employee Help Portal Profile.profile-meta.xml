@@ -80,6 +80,16 @@
     <layoutAssignments>
         <layout>Employee__c-Employee Layout</layout>
     </layoutAssignments>
+    <loginIpRanges>
+        <description>Fix incident where employees could not use intranet site (badly)</description>
+        <endAddress>255.255.255.255</endAddress>
+        <startAddress>0.0.0.0</startAddress>
+    </loginIpRanges>
+    <loginIpRanges>
+        <description>SieveCo (fake) intranet ranges</description>
+        <endAddress>104.146.255.255</endAddress>
+        <startAddress>104.146.252.0</startAddress>
+    </loginIpRanges>
     <pageAccesses>
         <apexPage>AnswersHome</apexPage>
         <enabled>true</enabled>
