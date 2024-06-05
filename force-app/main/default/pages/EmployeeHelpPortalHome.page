@@ -1,4 +1,11 @@
-<apex:page>
+<apex:page standardController="Employee__c">
 <h1>SieveCo Employee Help Portal</h1>
-This is your new Page
+<apex:pageBlock title="Employee Summary">
+  <apex:pageBlockSection>
+      Name: {! Employee__c.First_Name__c } {! Employee__c.Last_Name__c }<br/>
+      Phone: {! Employee__c.Phone__c } <br/>
+      Email: {! Employee__c.Email__c } <br/>
+      Date of Hire: {! Employee__c.Date_of_Hire__c } <br/>
+  </apex:pageBlockSection>
+</apex:pageBlock>
 </apex:page>
